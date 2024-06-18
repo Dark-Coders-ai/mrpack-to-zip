@@ -17,7 +17,7 @@ const mrApiGetVersions = "/version"
 if (urlParam != null) {
   downloadPack(urlParam);
 } else if (projectParam == 'fo') {
-  window.location.href = "https://download.fo/mrpack-to-zip/vanilla?download=latest";
+  window.location.href = "https://download.fo/vanilla?download=latest";
 } else if (projectParam != null) {
   downloadLatestPack(projectParam);
 }
